@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A713E029CAD4DBDA05BD19D /* Pods_minTur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D277EFDF76FC9FC214A51D /* Pods_minTur.framework */; };
+		BF544EFE1E61CF8A0074C941 /* CreateTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF544EFD1E61CF8A0074C941 /* CreateTripViewController.swift */; };
+		BF544F001E61D0790074C941 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF544EFF1E61D0790074C941 /* Trip.swift */; };
+		BF544F021E61E0160074C941 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF544F011E61E0160074C941 /* GoogleService-Info.plist */; };
 		BFA3F1E41E61B8CA00CE6D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3F1E31E61B8CA00CE6D4D /* AppDelegate.swift */; };
 		BFA3F1E61E61B8CA00CE6D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3F1E51E61B8CA00CE6D4D /* ViewController.swift */; };
 		BFA3F1E91E61B8CA00CE6D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA3F1E71E61B8CA00CE6D4D /* Main.storyboard */; };
 		BFA3F1EB1E61B8CA00CE6D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA3F1EA1E61B8CA00CE6D4D /* Assets.xcassets */; };
 		BFA3F1EE1E61B8CA00CE6D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA3F1EC1E61B8CA00CE6D4D /* LaunchScreen.storyboard */; };
+		BFB62AEC1E61EFF500CC93A0 /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB62AEB1E61EFF500CC93A0 /* MyTripsViewController.swift */; };
+		BFB62AEE1E620B3900CC93A0 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB62AED1E620B3900CC93A0 /* TripDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567D7BD0C4B0E3F5BEE9E0CE /* Pods-minTur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minTur.release.xcconfig"; path = "Pods/Target Support Files/Pods-minTur/Pods-minTur.release.xcconfig"; sourceTree = "<group>"; };
+		BF544EFD1E61CF8A0074C941 /* CreateTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTripViewController.swift; sourceTree = "<group>"; };
+		BF544EFF1E61D0790074C941 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		BF544F011E61E0160074C941 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BFA3F1E01E61B8CA00CE6D4D /* minTur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minTur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA3F1E31E61B8CA00CE6D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA3F1E51E61B8CA00CE6D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		BFA3F1EA1E61B8CA00CE6D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA3F1ED1E61B8CA00CE6D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA3F1EF1E61B8CA00CE6D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB62AEB1E61EFF500CC93A0 /* MyTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		BFB62AED1E620B3900CC93A0 /* TripDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		D1D277EFDF76FC9FC214A51D /* Pods_minTur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minTur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32F1FDED15888499D5D7B2C /* Pods-minTur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minTur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minTur/Pods-minTur.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A713E029CAD4DBDA05BD19D /* Pods_minTur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B16896E6B1F274093FF8F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D277EFDF76FC9FC214A51D /* Pods_minTur.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ED4FFCCB4FA915552CDB13C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F32F1FDED15888499D5D7B2C /* Pods-minTur.debug.xcconfig */,
+				567D7BD0C4B0E3F5BEE9E0CE /* Pods-minTur.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFA3F1D71E61B8CA00CE6D4D = {
 			isa = PBXGroup;
 			children = (
 				BFA3F1E21E61B8CA00CE6D4D /* minTur */,
 				BFA3F1E11E61B8CA00CE6D4D /* Products */,
+				6ED4FFCCB4FA915552CDB13C /* Pods */,
+				35B16896E6B1F274093FF8F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +90,12 @@
 			children = (
 				BFA3F1E31E61B8CA00CE6D4D /* AppDelegate.swift */,
 				BFA3F1E51E61B8CA00CE6D4D /* ViewController.swift */,
+				BF544EFD1E61CF8A0074C941 /* CreateTripViewController.swift */,
+				BF544EFF1E61D0790074C941 /* Trip.swift */,
 				BFA3F1E71E61B8CA00CE6D4D /* Main.storyboard */,
+				BFB62AEB1E61EFF500CC93A0 /* MyTripsViewController.swift */,
+				BFB62AED1E620B3900CC93A0 /* TripDetailViewController.swift */,
+				BF544F011E61E0160074C941 /* GoogleService-Info.plist */,
 				BFA3F1EA1E61B8CA00CE6D4D /* Assets.xcassets */,
 				BFA3F1EC1E61B8CA00CE6D4D /* LaunchScreen.storyboard */,
 				BFA3F1EF1E61B8CA00CE6D4D /* Info.plist */,
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFA3F1F21E61B8CA00CE6D4D /* Build configuration list for PBXNativeTarget "minTur" */;
 			buildPhases = (
+				395CAC860FAA0B07F18DF02F /* [CP] Check Pods Manifest.lock */,
 				BFA3F1DC1E61B8CA00CE6D4D /* Sources */,
 				BFA3F1DD1E61B8CA00CE6D4D /* Frameworks */,
 				BFA3F1DE1E61B8CA00CE6D4D /* Resources */,
+				7CC01EF6DFF622B495E2E2B1 /* [CP] Embed Pods Frameworks */,
+				B3222B272ADE8B99E45E58E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA3F1EE1E61B8CA00CE6D4D /* LaunchScreen.storyboard in Resources */,
+				BF544F021E61E0160074C941 /* GoogleService-Info.plist in Resources */,
 				BFA3F1EB1E61B8CA00CE6D4D /* Assets.xcassets in Resources */,
 				BFA3F1E91E61B8CA00CE6D4D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		395CAC860FAA0B07F18DF02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC01EF6DFF622B495E2E2B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minTur/Pods-minTur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3222B272ADE8B99E45E58E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minTur/Pods-minTur-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFA3F1DC1E61B8CA00CE6D4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB62AEE1E620B3900CC93A0 /* TripDetailViewController.swift in Sources */,
+				BF544F001E61D0790074C941 /* Trip.swift in Sources */,
+				BFB62AEC1E61EFF500CC93A0 /* MyTripsViewController.swift in Sources */,
 				BFA3F1E61E61B8CA00CE6D4D /* ViewController.swift in Sources */,
 				BFA3F1E41E61B8CA00CE6D4D /* AppDelegate.swift in Sources */,
+				BF544EFE1E61CF8A0074C941 /* CreateTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +351,7 @@
 		};
 		BFA3F1F31E61B8CA00CE6D4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32F1FDED15888499D5D7B2C /* Pods-minTur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = minTur/Info.plist;
@@ -268,6 +364,7 @@
 		};
 		BFA3F1F41E61B8CA00CE6D4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567D7BD0C4B0E3F5BEE9E0CE /* Pods-minTur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = minTur/Info.plist;
@@ -297,6 +394,7 @@
 				BFA3F1F41E61B8CA00CE6D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
